@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="projectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="codeCategory" />
+    </Key>
+    <Property Name="codeCategory" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="categoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="subjects_tb" Relationship="Self.FK_subjects_tb_category" FromRole="category" ToRole="subjects_tb" />
+  </EntityType>
+  <EntityType Name="classes">
+    <Key>
+      <PropertyRef Name="classCode" />
+    </Key>
+    <Property Name="classCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="tzTeacher" Type="Int32" Nullable="false" />
+    <Property Name="gradeCode" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Grades" Relationship="Self.FK_classes_Grades" FromRole="classes" ToRole="Grades" />
+    <NavigationProperty Name="stuff_tb" Relationship="Self.FK_classes_stuff_tb" FromRole="classes" ToRole="stuff_tb" />
+    <NavigationProperty Name="stuff_tb1" Relationship="Self.FK_classes_stuff_tb1" FromRole="classes" ToRole="stuff_tb" />
+    <NavigationProperty Name="stuff_tb2" Relationship="Self.FK_classes_stuff_tb2" FromRole="classes" ToRole="stuff_tb" />
+    <NavigationProperty Name="courses" Relationship="Self.FK_courses_classes1" FromRole="classes" ToRole="courses" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_Students_classes" FromRole="classes" ToRole="Students" />
+    <NavigationProperty Name="Students1" Relationship="Self.FK_Students_classes1" FromRole="classes" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="courses">
+    <Key>
+      <PropertyRef Name="courseCode" />
+    </Key>
+    <Property Name="courseCode" Type="Int32" Nullable="false" />
+    <Property Name="tzTeacher" Type="Int32" Nullable="false" />
+    <Property Name="subjectCode" Type="Int32" Nullable="false" />
+    <Property Name="groupCode" Type="Int32" />
+    <Property Name="classCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="classes" Relationship="Self.FK_courses_classes1" FromRole="courses" ToRole="classes" />
+    <NavigationProperty Name="groups" Relationship="Self.FK_courses_groups" FromRole="courses" ToRole="groups" />
+    <NavigationProperty Name="groups1" Relationship="Self.FK_courses_groups1" FromRole="courses" ToRole="groups" />
+    <NavigationProperty Name="stuff_tb" Relationship="Self.FK_courses_stuff_tb" FromRole="courses" ToRole="stuff_tb" />
+    <NavigationProperty Name="Reporting" Relationship="Self.FK_Reporting_courses1" FromRole="courses" ToRole="Reporting" />
+  </EntityType>
+  <EntityType Name="Grades">
+    <Key>
+      <PropertyRef Name="gradeCode" />
+    </Key>
+    <Property Name="gradeCode" Type="Int32" Nullable="false" />
+    <Property Name="gradeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="classes" Relationship="Self.FK_classes_Grades" FromRole="Grades" ToRole="classes" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_Students_Grades" FromRole="Grades" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="groups">
+    <Key>
+      <PropertyRef Name="groupCode" />
+    </Key>
+    <Property Name="groupCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="groupName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="gradeCode" Type="Int32" Nullable="false" />
+    <Property Name="subjectCode" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="courses" Relationship="Self.FK_courses_groups" FromRole="groups" ToRole="courses" />
+    <NavigationProperty Name="courses1" Relationship="Self.FK_courses_groups1" FromRole="groups" ToRole="courses" />
+    <NavigationProperty Name="studentsInGroups" Relationship="Self.FK_studentsInGroups_groups" FromRole="groups" ToRole="studentsInGroups" />
+    <NavigationProperty Name="studentsInGroups1" Relationship="Self.FK_studentsInGroups_groups1" FromRole="groups" ToRole="studentsInGroups" />
+  </EntityType>
+  <EntityType Name="Reporting">
+    <Key>
+      <PropertyRef Name="ReporCode" />
+    </Key>
+    <Property Name="ReporCode" Type="Int32" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="courseCode" Type="Int32" Nullable="false" />
+    <Property Name="semester" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="filed" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="courses" Relationship="Self.FK_Reporting_courses1" FromRole="Reporting" ToRole="courses" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="tz" />
+    </Key>
+    <Property Name="tz" Type="Int32" Nullable="false" />
+    <Property Name="firstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="lastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="userCode" Type="Int32" Nullable="false" />
+    <Property Name="classCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="codeGrade" Type="Int32" />
+    <NavigationProperty Name="classes" Relationship="Self.FK_Students_classes" FromRole="Students" ToRole="classes" />
+    <NavigationProperty Name="classes1" Relationship="Self.FK_Students_classes1" FromRole="Students" ToRole="classes" />
+    <NavigationProperty Name="Grades" Relationship="Self.FK_Students_Grades" FromRole="Students" ToRole="Grades" />
+    <NavigationProperty Name="studentsInGroups" Relationship="Self.FK_studentsInGroups_Students" FromRole="Students" ToRole="studentsInGroups" />
+  </EntityType>
+  <EntityType Name="studentsINeport">
+    <Key>
+      <PropertyRef Name="codeStu" />
+    </Key>
+    <Property Name="reportCode" Type="Int32" Nullable="false" />
+    <Property Name="tzStudent" Type="Int32" Nullable="false" />
+    <Property Name="mark" Type="Int32" Nullable="false" />
+    <Property Name="note" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="codeStu" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="stuff_tb">
+    <Key>
+      <PropertyRef Name="tz" />
+    </Key>
+    <Property Name="tz" Type="Int32" Nullable="false" />
+    <Property Name="firstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="lastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="userCode" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="Boolean" Nullable="false" />
+    <Property Name="position" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="classes" Relationship="Self.FK_classes_stuff_tb" FromRole="stuff_tb" ToRole="classes" />
+    <NavigationProperty Name="classes1" Relationship="Self.FK_classes_stuff_tb1" FromRole="stuff_tb" ToRole="classes" />
+    <NavigationProperty Name="classes2" Relationship="Self.FK_classes_stuff_tb2" FromRole="stuff_tb" ToRole="classes" />
+    <NavigationProperty Name="courses" Relationship="Self.FK_courses_stuff_tb" FromRole="stuff_tb" ToRole="courses" />
+  </EntityType>
+  <EntityType Name="studentsInGroups">
+    <Key>
+      <PropertyRef Name="tzStudent" />
+      <PropertyRef Name="groupCode" />
+    </Key>
+    <Property Name="tzStudent" Type="Int32" Nullable="false" />
+    <Property Name="groupCode" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="groups" Relationship="Self.FK_studentsInGroups_groups" FromRole="studentsInGroups" ToRole="groups" />
+    <NavigationProperty Name="groups1" Relationship="Self.FK_studentsInGroups_groups1" FromRole="studentsInGroups" ToRole="groups" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_studentsInGroups_Students" FromRole="studentsInGroups" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="subjects_tb">
+    <Key>
+      <PropertyRef Name="codeSubject" />
+      <PropertyRef Name="subjectName" />
+      <PropertyRef Name="codeCategory" />
+    </Key>
+    <Property Name="codeSubject" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="subjectName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="codeCategory" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="category" Relationship="Self.FK_subjects_tb_category" FromRole="subjects_tb" ToRole="category" />
+  </EntityType>
+  <Association Name="FK_subjects_tb_category">
+    <End Role="category" Type="Self.category" Multiplicity="1" />
+    <End Role="subjects_tb" Type="Self.subjects_tb" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="codeCategory" />
+      </Principal>
+      <Dependent Role="subjects_tb">
+        <PropertyRef Name="codeCategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_classes_Grades">
+    <End Role="Grades" Type="Self.Grades" Multiplicity="1" />
+    <End Role="classes" Type="Self.classes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grades">
+        <PropertyRef Name="gradeCode" />
+      </Principal>
+      <Dependent Role="classes">
+        <PropertyRef Name="gradeCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_classes_stuff_tb">
+    <End Role="stuff_tb" Type="Self.stuff_tb" Multiplicity="1" />
+    <End Role="classes" Type="Self.classes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stuff_tb">
+        <PropertyRef Name="tz" />
+      </Principal>
+      <Dependent Role="classes">
+        <PropertyRef Name="tzTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_classes_stuff_tb1">
+    <End Role="stuff_tb" Type="Self.stuff_tb" Multiplicity="1" />
+    <End Role="classes" Type="Self.classes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stuff_tb">
+        <PropertyRef Name="tz" />
+      </Principal>
+      <Dependent Role="classes">
+        <PropertyRef Name="tzTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_classes_stuff_tb2">
+    <End Role="stuff_tb" Type="Self.stuff_tb" Multiplicity="1" />
+    <End Role="classes" Type="Self.classes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stuff_tb">
+        <PropertyRef Name="tz" />
+      </Principal>
+      <Dependent Role="classes">
+        <PropertyRef Name="tzTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_courses_classes1">
+    <End Role="classes" Type="Self.classes" Multiplicity="0..1" />
+    <End Role="courses" Type="Self.courses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="classes">
+        <PropertyRef Name="classCode" />
+      </Principal>
+      <Dependent Role="courses">
+        <PropertyRef Name="classCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Students_classes">
+    <End Role="classes" Type="Self.classes" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Students" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="classes">
+        <PropertyRef Name="classCode" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="classCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Students_classes1">
+    <End Role="classes" Type="Self.classes" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Students" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="classes">
+        <PropertyRef Name="classCode" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="classCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_courses_groups">
+    <End Role="groups" Type="Self.groups" Multiplicity="0..1" />
+    <End Role="courses" Type="Self.courses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="groups">
+        <PropertyRef Name="groupCode" />
+      </Principal>
+      <Dependent Role="courses">
+        <PropertyRef Name="groupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_courses_groups1">
+    <End Role="groups" Type="Self.groups" Multiplicity="0..1" />
+    <End Role="courses" Type="Self.courses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="groups">
+        <PropertyRef Name="groupCode" />
+      </Principal>
+      <Dependent Role="courses">
+        <PropertyRef Name="groupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_courses_stuff_tb">
+    <End Role="stuff_tb" Type="Self.stuff_tb" Multiplicity="1" />
+    <End Role="courses" Type="Self.courses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stuff_tb">
+        <PropertyRef Name="tz" />
+      </Principal>
+      <Dependent Role="courses">
+        <PropertyRef Name="tzTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reporting_courses1">
+    <End Role="courses" Type="Self.courses" Multiplicity="1" />
+    <End Role="Reporting" Type="Self.Reporting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="courses">
+        <PropertyRef Name="courseCode" />
+      </Principal>
+      <Dependent Role="Reporting">
+        <PropertyRef Name="courseCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Students_Grades">
+    <End Role="Grades" Type="Self.Grades" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Students" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grades">
+        <PropertyRef Name="gradeCode" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="codeGrade" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_studentsInGroups_groups">
+    <End Role="groups" Type="Self.groups" Multiplicity="1" />
+    <End Role="studentsInGroups" Type="Self.studentsInGroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="groups">
+        <PropertyRef Name="groupCode" />
+      </Principal>
+      <Dependent Role="studentsInGroups">
+        <PropertyRef Name="groupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_studentsInGroups_groups1">
+    <End Role="groups" Type="Self.groups" Multiplicity="1" />
+    <End Role="studentsInGroups" Type="Self.studentsInGroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="groups">
+        <PropertyRef Name="groupCode" />
+      </Principal>
+      <Dependent Role="studentsInGroups">
+        <PropertyRef Name="groupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_studentsInGroups_Students">
+    <End Role="Students" Type="Self.Students" Multiplicity="1" />
+    <End Role="studentsInGroups" Type="Self.studentsInGroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="tz" />
+      </Principal>
+      <Dependent Role="studentsInGroups">
+        <PropertyRef Name="tzStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="projectEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="category" EntityType="Self.category" />
+    <EntitySet Name="classes" EntityType="Self.classes" />
+    <EntitySet Name="courses" EntityType="Self.courses" />
+    <EntitySet Name="Grades" EntityType="Self.Grades" />
+    <EntitySet Name="groups" EntityType="Self.groups" />
+    <EntitySet Name="Reporting" EntityType="Self.Reporting" />
+    <EntitySet Name="Students" EntityType="Self.Students" />
+    <EntitySet Name="studentsINeport" EntityType="Self.studentsINeport" />
+    <EntitySet Name="stuff_tb" EntityType="Self.stuff_tb" />
+    <EntitySet Name="studentsInGroups" EntityType="Self.studentsInGroups" />
+    <EntitySet Name="subjects_tb" EntityType="Self.subjects_tb" />
+    <AssociationSet Name="FK_subjects_tb_category" Association="Self.FK_subjects_tb_category">
+      <End Role="category" EntitySet="category" />
+      <End Role="subjects_tb" EntitySet="subjects_tb" />
+    </AssociationSet>
+    <AssociationSet Name="FK_classes_Grades" Association="Self.FK_classes_Grades">
+      <End Role="Grades" EntitySet="Grades" />
+      <End Role="classes" EntitySet="classes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_classes_stuff_tb" Association="Self.FK_classes_stuff_tb">
+      <End Role="stuff_tb" EntitySet="stuff_tb" />
+      <End Role="classes" EntitySet="classes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_classes_stuff_tb1" Association="Self.FK_classes_stuff_tb1">
+      <End Role="stuff_tb" EntitySet="stuff_tb" />
+      <End Role="classes" EntitySet="classes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_classes_stuff_tb2" Association="Self.FK_classes_stuff_tb2">
+      <End Role="stuff_tb" EntitySet="stuff_tb" />
+      <End Role="classes" EntitySet="classes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_courses_classes1" Association="Self.FK_courses_classes1">
+      <End Role="classes" EntitySet="classes" />
+      <End Role="courses" EntitySet="courses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Students_classes" Association="Self.FK_Students_classes">
+      <End Role="classes" EntitySet="classes" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Students_classes1" Association="Self.FK_Students_classes1">
+      <End Role="classes" EntitySet="classes" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_courses_groups" Association="Self.FK_courses_groups">
+      <End Role="groups" EntitySet="groups" />
+      <End Role="courses" EntitySet="courses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_courses_groups1" Association="Self.FK_courses_groups1">
+      <End Role="groups" EntitySet="groups" />
+      <End Role="courses" EntitySet="courses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_courses_stuff_tb" Association="Self.FK_courses_stuff_tb">
+      <End Role="stuff_tb" EntitySet="stuff_tb" />
+      <End Role="courses" EntitySet="courses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reporting_courses1" Association="Self.FK_Reporting_courses1">
+      <End Role="courses" EntitySet="courses" />
+      <End Role="Reporting" EntitySet="Reporting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Students_Grades" Association="Self.FK_Students_Grades">
+      <End Role="Grades" EntitySet="Grades" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_studentsInGroups_groups" Association="Self.FK_studentsInGroups_groups">
+      <End Role="groups" EntitySet="groups" />
+      <End Role="studentsInGroups" EntitySet="studentsInGroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_studentsInGroups_groups1" Association="Self.FK_studentsInGroups_groups1">
+      <End Role="groups" EntitySet="groups" />
+      <End Role="studentsInGroups" EntitySet="studentsInGroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_studentsInGroups_Students" Association="Self.FK_studentsInGroups_Students">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="studentsInGroups" EntitySet="studentsInGroups" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Covid19Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="entities">
+    <Key>
+      <PropertyRef Name="entity_id" />
+    </Key>
+    <Property Name="entity_id" Type="Int32" Nullable="false" />
+    <Property Name="first_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="last_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="birth_date" Type="DateTime" Precision="0" />
+    <Property Name="phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="cell_phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="employee" Type="Boolean" />
+    <Property Name="city" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="street" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="street_num" Type="Int32" />
+    <NavigationProperty Name="patients" Relationship="Self.FK_patients_entities" FromRole="entities" ToRole="patients" />
+    <NavigationProperty Name="vaccinated" Relationship="Self.FK_vaccinated_entities" FromRole="entities" ToRole="vaccinated" />
+  </EntityType>
+  <EntityType Name="manufacturer">
+    <Key>
+      <PropertyRef Name="manufacturer_id" />
+    </Key>
+    <Property Name="manufacturer_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="manufacturer_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="phone_order" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="vaccine" Relationship="Self.FK_vaccine_manufacturer" FromRole="manufacturer" ToRole="vaccine" />
+  </EntityType>
+  <EntityType Name="patients">
+    <Key>
+      <PropertyRef Name="patient_id" />
+    </Key>
+    <Property Name="patient_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="entity_id" Type="Int32" Nullable="false" />
+    <Property Name="positve_date" Type="DateTime" Precision="0" />
+    <Property Name="recovery_date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="entities" Relationship="Self.FK_patients_entities" FromRole="patients" ToRole="entities" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vaccinated">
+    <Key>
+      <PropertyRef Name="datails_id" />
+    </Key>
+    <Property Name="datails_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="entity_id" Type="Int32" Nullable="false" />
+    <Property Name="vaccine_id" Type="Int32" Nullable="false" />
+    <Property Name="receiving_date" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="entities" Relationship="Self.FK_vaccinated_entities" FromRole="vaccinated" ToRole="entities" />
+    <NavigationProperty Name="vaccine" Relationship="Self.FK_vaccinated_vaccine" FromRole="vaccinated" ToRole="vaccine" />
+  </EntityType>
+  <EntityType Name="vaccine">
+    <Key>
+      <PropertyRef Name="vaccine_id" />
+    </Key>
+    <Property Name="vaccine_id" Type="Int32" Nullable="false" />
+    <Property Name="name_vaccine" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="manufacturer_id" Type="Int32" Nullable="false" />
+    <Property Name="count_vaccine" Type="Int32" Nullable="false" />
+    <Property Name="manufacturing_date" Type="DateTime" Precision="0" />
+    <Property Name="expiry_date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="manufacturer" Relationship="Self.FK_vaccine_manufacturer" FromRole="vaccine" ToRole="manufacturer" />
+    <NavigationProperty Name="vaccinated" Relationship="Self.FK_vaccinated_vaccine" FromRole="vaccine" ToRole="vaccinated" />
+  </EntityType>
+  <Association Name="FK_patients_entities">
+    <End Role="entities" Type="Self.entities" Multiplicity="1" />
+    <End Role="patients" Type="Self.patients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="entities">
+        <PropertyRef Name="entity_id" />
+      </Principal>
+      <Dependent Role="patients">
+        <PropertyRef Name="entity_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vaccinated_entities">
+    <End Role="entities" Type="Self.entities" Multiplicity="1" />
+    <End Role="vaccinated" Type="Self.vaccinated" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="entities">
+        <PropertyRef Name="entity_id" />
+      </Principal>
+      <Dependent Role="vaccinated">
+        <PropertyRef Name="entity_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vaccine_manufacturer">
+    <End Role="manufacturer" Type="Self.manufacturer" Multiplicity="1" />
+    <End Role="vaccine" Type="Self.vaccine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="manufacturer">
+        <PropertyRef Name="manufacturer_id" />
+      </Principal>
+      <Dependent Role="vaccine">
+        <PropertyRef Name="manufacturer_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vaccinated_vaccine">
+    <End Role="vaccine" Type="Self.vaccine" Multiplicity="1" />
+    <End Role="vaccinated" Type="Self.vaccinated" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vaccine">
+        <PropertyRef Name="vaccine_id" />
+      </Principal>
+      <Dependent Role="vaccinated">
+        <PropertyRef Name="vaccine_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Covid19Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="entities" EntityType="Self.entities" />
+    <EntitySet Name="manufacturer" EntityType="Self.manufacturer" />
+    <EntitySet Name="patients" EntityType="Self.patients" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="vaccinated" EntityType="Self.vaccinated" />
+    <EntitySet Name="vaccine" EntityType="Self.vaccine" />
+    <AssociationSet Name="FK_patients_entities" Association="Self.FK_patients_entities">
+      <End Role="entities" EntitySet="entities" />
+      <End Role="patients" EntitySet="patients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vaccinated_entities" Association="Self.FK_vaccinated_entities">
+      <End Role="entities" EntitySet="entities" />
+      <End Role="vaccinated" EntitySet="vaccinated" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vaccine_manufacturer" Association="Self.FK_vaccine_manufacturer">
+      <End Role="manufacturer" EntitySet="manufacturer" />
+      <End Role="vaccine" EntitySet="vaccine" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vaccinated_vaccine" Association="Self.FK_vaccinated_vaccine">
+      <End Role="vaccine" EntitySet="vaccine" />
+      <End Role="vaccinated" EntitySet="vaccinated" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

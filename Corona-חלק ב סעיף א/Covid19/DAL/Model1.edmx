@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Covid19Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="entities">
+          <Key>
+            <PropertyRef Name="entity_id" />
+          </Key>
+          <Property Name="entity_id" Type="int" Nullable="false" />
+          <Property Name="first_name" Type="nchar" MaxLength="10" />
+          <Property Name="last_name" Type="nchar" MaxLength="10" />
+          <Property Name="birth_date" Type="date" />
+          <Property Name="phone" Type="nchar" MaxLength="10" />
+          <Property Name="cell_phone" Type="nchar" MaxLength="10" />
+          <Property Name="employee" Type="bit" />
+          <Property Name="city" Type="nchar" MaxLength="10" />
+          <Property Name="street" Type="nchar" MaxLength="10" />
+          <Property Name="street_num" Type="int" />
+        </EntityType>
+        <EntityType Name="manufacturer">
+          <Key>
+            <PropertyRef Name="manufacturer_id" />
+          </Key>
+          <Property Name="manufacturer_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="manufacturer_name" Type="nchar" MaxLength="10" />
+          <Property Name="phone_order" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="patients">
+          <Key>
+            <PropertyRef Name="patient_id" />
+          </Key>
+          <Property Name="patient_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="entity_id" Type="int" Nullable="false" />
+          <Property Name="positve_date" Type="date" />
+          <Property Name="recovery_date" Type="date" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="vaccinated">
+          <Key>
+            <PropertyRef Name="datails_id" />
+          </Key>
+          <Property Name="datails_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="entity_id" Type="int" Nullable="false" />
+          <Property Name="vaccine_id" Type="int" Nullable="false" />
+          <Property Name="receiving_date" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="vaccine">
+          <Key>
+            <PropertyRef Name="vaccine_id" />
+          </Key>
+          <Property Name="vaccine_id" Type="int" Nullable="false" />
+          <Property Name="name_vaccine" Type="nchar" MaxLength="10" />
+          <Property Name="manufacturer_id" Type="int" Nullable="false" />
+          <Property Name="count_vaccine" Type="int" Nullable="false" />
+          <Property Name="manufacturing_date" Type="date" />
+          <Property Name="expiry_date" Type="date" />
+        </EntityType>
+        <Association Name="FK_patients_entities">
+          <End Role="entities" Type="Self.entities" Multiplicity="1" />
+          <End Role="patients" Type="Self.patients" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="entities">
+              <PropertyRef Name="entity_id" />
+            </Principal>
+            <Dependent Role="patients">
+              <PropertyRef Name="entity_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_vaccinated_entities">
+          <End Role="entities" Type="Self.entities" Multiplicity="1" />
+          <End Role="vaccinated" Type="Self.vaccinated" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="entities">
+              <PropertyRef Name="entity_id" />
+            </Principal>
+            <Dependent Role="vaccinated">
+              <PropertyRef Name="entity_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_vaccinated_vaccine">
+          <End Role="vaccine" Type="Self.vaccine" Multiplicity="1" />
+          <End Role="vaccinated" Type="Self.vaccinated" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vaccine">
+              <PropertyRef Name="vaccine_id" />
+            </Principal>
+            <Dependent Role="vaccinated">
+              <PropertyRef Name="vaccine_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_vaccine_manufacturer">
+          <End Role="manufacturer" Type="Self.manufacturer" Multiplicity="1" />
+          <End Role="vaccine" Type="Self.vaccine" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="manufacturer">
+              <PropertyRef Name="manufacturer_id" />
+            </Principal>
+            <Dependent Role="vaccine">
+              <PropertyRef Name="manufacturer_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Covid19ModelStoreContainer">
+          <EntitySet Name="entities" EntityType="Self.entities" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="manufacturer" EntityType="Self.manufacturer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="patients" EntityType="Self.patients" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="vaccinated" EntityType="Self.vaccinated" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="vaccine" EntityType="Self.vaccine" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_patients_entities" Association="Self.FK_patients_entities">
+            <End Role="entities" EntitySet="entities" />
+            <End Role="patients" EntitySet="patients" />
+          </AssociationSet>
+          <AssociationSet Name="FK_vaccinated_entities" Association="Self.FK_vaccinated_entities">
+            <End Role="entities" EntitySet="entities" />
+            <End Role="vaccinated" EntitySet="vaccinated" />
+          </AssociationSet>
+          <AssociationSet Name="FK_vaccinated_vaccine" Association="Self.FK_vaccinated_vaccine">
+            <End Role="vaccine" EntitySet="vaccine" />
+            <End Role="vaccinated" EntitySet="vaccinated" />
+          </AssociationSet>
+          <AssociationSet Name="FK_vaccine_manufacturer" Association="Self.FK_vaccine_manufacturer">
+            <End Role="manufacturer" EntitySet="manufacturer" />
+            <End Role="vaccine" EntitySet="vaccine" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Covid19Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="entities">
+          <Key>
+            <PropertyRef Name="entity_id" />
+          </Key>
+          <Property Name="entity_id" Type="Int32" Nullable="false" />
+          <Property Name="first_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="last_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="birth_date" Type="DateTime" Precision="0" />
+          <Property Name="phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="cell_phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="employee" Type="Boolean" />
+          <Property Name="city" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="street" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="street_num" Type="Int32" />
+          <NavigationProperty Name="patients" Relationship="Self.FK_patients_entities" FromRole="entities" ToRole="patients" />
+          <NavigationProperty Name="vaccinated" Relationship="Self.FK_vaccinated_entities" FromRole="entities" ToRole="vaccinated" />
+        </EntityType>
+        <EntityType Name="manufacturer">
+          <Key>
+            <PropertyRef Name="manufacturer_id" />
+          </Key>
+          <Property Name="manufacturer_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="manufacturer_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="phone_order" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="vaccine" Relationship="Self.FK_vaccine_manufacturer" FromRole="manufacturer" ToRole="vaccine" />
+        </EntityType>
+        <EntityType Name="patients">
+          <Key>
+            <PropertyRef Name="patient_id" />
+          </Key>
+          <Property Name="patient_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="entity_id" Type="Int32" Nullable="false" />
+          <Property Name="positve_date" Type="DateTime" Precision="0" />
+          <Property Name="recovery_date" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="entities" Relationship="Self.FK_patients_entities" FromRole="patients" ToRole="entities" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="vaccinated">
+          <Key>
+            <PropertyRef Name="datails_id" />
+          </Key>
+          <Property Name="datails_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="entity_id" Type="Int32" Nullable="false" />
+          <Property Name="vaccine_id" Type="Int32" Nullable="false" />
+          <Property Name="receiving_date" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="entities" Relationship="Self.FK_vaccinated_entities" FromRole="vaccinated" ToRole="entities" />
+          <NavigationProperty Name="vaccine" Relationship="Self.FK_vaccinated_vaccine" FromRole="vaccinated" ToRole="vaccine" />
+        </EntityType>
+        <EntityType Name="vaccine">
+          <Key>
+            <PropertyRef Name="vaccine_id" />
+          </Key>
+          <Property Name="vaccine_id" Type="Int32" Nullable="false" />
+          <Property Name="name_vaccine" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="manufacturer_id" Type="Int32" Nullable="false" />
+          <Property Name="count_vaccine" Type="Int32" Nullable="false" />
+          <Property Name="manufacturing_date" Type="DateTime" Precision="0" />
+          <Property Name="expiry_date" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="manufacturer" Relationship="Self.FK_vaccine_manufacturer" FromRole="vaccine" ToRole="manufacturer" />
+          <NavigationProperty Name="vaccinated" Relationship="Self.FK_vaccinated_vaccine" FromRole="vaccine" ToRole="vaccinated" />
+        </EntityType>
+        <Association Name="FK_patients_entities">
+          <End Role="entities" Type="Self.entities" Multiplicity="1" />
+          <End Role="patients" Type="Self.patients" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="entities">
+              <PropertyRef Name="entity_id" />
+            </Principal>
+            <Dependent Role="patients">
+              <PropertyRef Name="entity_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_vaccinated_entities">
+          <End Role="entities" Type="Self.entities" Multiplicity="1" />
+          <End Role="vaccinated" Type="Self.vaccinated" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="entities">
+              <PropertyRef Name="entity_id" />
+            </Principal>
+            <Dependent Role="vaccinated">
+              <PropertyRef Name="entity_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_vaccine_manufacturer">
+          <End Role="manufacturer" Type="Self.manufacturer" Multiplicity="1" />
+          <End Role="vaccine" Type="Self.vaccine" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="manufacturer">
+              <PropertyRef Name="manufacturer_id" />
+            </Principal>
+            <Dependent Role="vaccine">
+              <PropertyRef Name="manufacturer_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_vaccinated_vaccine">
+          <End Role="vaccine" Type="Self.vaccine" Multiplicity="1" />
+          <End Role="vaccinated" Type="Self.vaccinated" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vaccine">
+              <PropertyRef Name="vaccine_id" />
+            </Principal>
+            <Dependent Role="vaccinated">
+              <PropertyRef Name="vaccine_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Covid19Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="entities" EntityType="Self.entities" />
+          <EntitySet Name="manufacturer" EntityType="Self.manufacturer" />
+          <EntitySet Name="patients" EntityType="Self.patients" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="vaccinated" EntityType="Self.vaccinated" />
+          <EntitySet Name="vaccine" EntityType="Self.vaccine" />
+          <AssociationSet Name="FK_patients_entities" Association="Self.FK_patients_entities">
+            <End Role="entities" EntitySet="entities" />
+            <End Role="patients" EntitySet="patients" />
+          </AssociationSet>
+          <AssociationSet Name="FK_vaccinated_entities" Association="Self.FK_vaccinated_entities">
+            <End Role="entities" EntitySet="entities" />
+            <End Role="vaccinated" EntitySet="vaccinated" />
+          </AssociationSet>
+          <AssociationSet Name="FK_vaccine_manufacturer" Association="Self.FK_vaccine_manufacturer">
+            <End Role="manufacturer" EntitySet="manufacturer" />
+            <End Role="vaccine" EntitySet="vaccine" />
+          </AssociationSet>
+          <AssociationSet Name="FK_vaccinated_vaccine" Association="Self.FK_vaccinated_vaccine">
+            <End Role="vaccine" EntitySet="vaccine" />
+            <End Role="vaccinated" EntitySet="vaccinated" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Covid19ModelStoreContainer" CdmEntityContainer="Covid19Entities">
+          <EntitySetMapping Name="entities">
+            <EntityTypeMapping TypeName="Covid19Model.entities">
+              <MappingFragment StoreEntitySet="entities">
+                <ScalarProperty Name="entity_id" ColumnName="entity_id" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="last_name" ColumnName="last_name" />
+                <ScalarProperty Name="birth_date" ColumnName="birth_date" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="cell_phone" ColumnName="cell_phone" />
+                <ScalarProperty Name="employee" ColumnName="employee" />
+                <ScalarProperty Name="city" ColumnName="city" />
+                <ScalarProperty Name="street" ColumnName="street" />
+                <ScalarProperty Name="street_num" ColumnName="street_num" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="manufacturer">
+            <EntityTypeMapping TypeName="Covid19Model.manufacturer">
+              <MappingFragment StoreEntitySet="manufacturer">
+                <ScalarProperty Name="manufacturer_id" ColumnName="manufacturer_id" />
+                <ScalarProperty Name="manufacturer_name" ColumnName="manufacturer_name" />
+                <ScalarProperty Name="phone_order" ColumnName="phone_order" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="patients">
+            <EntityTypeMapping TypeName="Covid19Model.patients">
+              <MappingFragment StoreEntitySet="patients">
+                <ScalarProperty Name="patient_id" ColumnName="patient_id" />
+                <ScalarProperty Name="entity_id" ColumnName="entity_id" />
+                <ScalarProperty Name="positve_date" ColumnName="positve_date" />
+                <ScalarProperty Name="recovery_date" ColumnName="recovery_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="Covid19Model.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vaccinated">
+            <EntityTypeMapping TypeName="Covid19Model.vaccinated">
+              <MappingFragment StoreEntitySet="vaccinated">
+                <ScalarProperty Name="datails_id" ColumnName="datails_id" />
+                <ScalarProperty Name="entity_id" ColumnName="entity_id" />
+                <ScalarProperty Name="vaccine_id" ColumnName="vaccine_id" />
+                <ScalarProperty Name="receiving_date" ColumnName="receiving_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vaccine">
+            <EntityTypeMapping TypeName="Covid19Model.vaccine">
+              <MappingFragment StoreEntitySet="vaccine">
+                <ScalarProperty Name="vaccine_id" ColumnName="vaccine_id" />
+                <ScalarProperty Name="name_vaccine" ColumnName="name_vaccine" />
+                <ScalarProperty Name="manufacturer_id" ColumnName="manufacturer_id" />
+                <ScalarProperty Name="count_vaccine" ColumnName="count_vaccine" />
+                <ScalarProperty Name="manufacturing_date" ColumnName="manufacturing_date" />
+                <ScalarProperty Name="expiry_date" ColumnName="expiry_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

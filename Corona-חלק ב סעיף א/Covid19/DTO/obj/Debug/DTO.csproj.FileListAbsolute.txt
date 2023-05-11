@@ -1,0 +1,321 @@
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\חדש\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\פרוקיט\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט 1.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרויקט 2.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\פרוקיט\3.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+H:\שנה א תשפב\פרויקט\אילה פריינד\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\פרויקט בc שארפ\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\4.8\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+F:\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\6.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\13.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\Ayala~\Documents\אילה\הפרויקטים מעודכנים\19.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אילה פריינד\פרויקט מעודכן\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\user1\Desktop\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll.config
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.dll
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DTO.pdb
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.pdb
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\DAL.dll.config
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.dll
+C:\Users\user1\Desktop\Hadasim2\21.9\9.4\פתיחת קובץ\BLL\DTO\obj\Debug\DTO.pdb
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DTO.dll.config
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DTO.dll
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DTO.pdb
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DAL.dll
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DAL.pdb
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DAL.dll.config
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.dll
+C:\Users\user1\Desktop\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.pdb
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DTO.dll.config
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DTO.dll
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DTO.pdb
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DAL.dll
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DAL.pdb
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\DAL.dll.config
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.dll
+C:\Users\user1\Desktop\Project_Hadasim\Hadasim2\Corona-חלק ב סעיף א\Covid19\DTO\obj\Debug\DTO.pdb

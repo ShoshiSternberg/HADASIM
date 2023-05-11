@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="projectModelStoreContainer" CdmEntityContainer="projectEntities">
+    <EntitySetMapping Name="category">
+      <EntityTypeMapping TypeName="projectModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="codeCategory" ColumnName="codeCategory" />
+          <ScalarProperty Name="categoryName" ColumnName="categoryName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="classes">
+      <EntityTypeMapping TypeName="projectModel.classes">
+        <MappingFragment StoreEntitySet="classes">
+          <ScalarProperty Name="classCode" ColumnName="classCode" />
+          <ScalarProperty Name="tzTeacher" ColumnName="tzTeacher" />
+          <ScalarProperty Name="gradeCode" ColumnName="gradeCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="courses">
+      <EntityTypeMapping TypeName="projectModel.courses">
+        <MappingFragment StoreEntitySet="courses">
+          <ScalarProperty Name="courseCode" ColumnName="courseCode" />
+          <ScalarProperty Name="tzTeacher" ColumnName="tzTeacher" />
+          <ScalarProperty Name="subjectCode" ColumnName="subjectCode" />
+          <ScalarProperty Name="groupCode" ColumnName="groupCode" />
+          <ScalarProperty Name="classCode" ColumnName="classCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Grades">
+      <EntityTypeMapping TypeName="projectModel.Grades">
+        <MappingFragment StoreEntitySet="Grades">
+          <ScalarProperty Name="gradeCode" ColumnName="gradeCode" />
+          <ScalarProperty Name="gradeName" ColumnName="gradeName" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="groups">
+      <EntityTypeMapping TypeName="projectModel.groups">
+        <MappingFragment StoreEntitySet="groups">
+          <ScalarProperty Name="groupCode" ColumnName="groupCode" />
+          <ScalarProperty Name="groupName" ColumnName="groupName" />
+          <ScalarProperty Name="gradeCode" ColumnName="gradeCode" />
+          <ScalarProperty Name="subjectCode" ColumnName="subjectCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reporting">
+      <EntityTypeMapping TypeName="projectModel.Reporting">
+        <MappingFragment StoreEntitySet="Reporting">
+          <ScalarProperty Name="ReporCode" ColumnName="ReporCode" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="courseCode" ColumnName="courseCode" />
+          <ScalarProperty Name="semester" ColumnName="semester" />
+          <ScalarProperty Name="filed" ColumnName="filed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="projectModel.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="tz" ColumnName="tz" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="userCode" ColumnName="userCode" />
+          <ScalarProperty Name="classCode" ColumnName="classCode" />
+          <ScalarProperty Name="codeGrade" ColumnName="codeGrade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="studentsINeport">
+      <EntityTypeMapping TypeName="projectModel.studentsINeport">
+        <MappingFragment StoreEntitySet="studentsINeport">
+          <ScalarProperty Name="reportCode" ColumnName="reportCode" />
+          <ScalarProperty Name="tzStudent" ColumnName="tzStudent" />
+          <ScalarProperty Name="mark" ColumnName="mark" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="codeStu" ColumnName="codeStu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stuff_tb">
+      <EntityTypeMapping TypeName="projectModel.stuff_tb">
+        <MappingFragment StoreEntitySet="stuff_tb">
+          <ScalarProperty Name="tz" ColumnName="tz" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="userCode" ColumnName="userCode" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="position" ColumnName="position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="studentsInGroups">
+      <EntityTypeMapping TypeName="projectModel.studentsInGroups">
+        <MappingFragment StoreEntitySet="studentsInGroups">
+          <ScalarProperty Name="tzStudent" ColumnName="tzStudent" />
+          <ScalarProperty Name="groupCode" ColumnName="groupCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="subjects_tb">
+      <EntityTypeMapping TypeName="projectModel.subjects_tb">
+        <MappingFragment StoreEntitySet="subjects_tb">
+          <ScalarProperty Name="codeSubject" ColumnName="codeSubject" />
+          <ScalarProperty Name="subjectName" ColumnName="subjectName" />
+          <ScalarProperty Name="codeCategory" ColumnName="codeCategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

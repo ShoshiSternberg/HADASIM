@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload Example</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+        #preview-image {
+            max-width: 400px;
+            max-height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Upload Example</h1>
+    <input type="file" id="image-upload" accept="image/*" />
+    <br />
+    <img id="preview-image" src="#" alt="Preview" />
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            const inputElement = document.getElementById("image-upload");
+            const previewElement = document.getElementById("preview-image");
+
+            inputElement.addEventListener("change", (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+
+                    reader.addEventListener("load", (e) => {
+                        previewElement.setAttribute("src", e.target.result);
+                    });
+
+                    reader.readAsDataURL(file);
+                }
+            });
+        });
+
+            //const fileInput = document.getElementById('preview-image');
+
+            //fileInput.addEventListener('change', (event) => {
+            //    const file = event.target.files[0];
+            //    const formData = new FormData();
+            //    formData.append('file', file);
+            //    var p = 'https://localhost:44305/api/Entities/UploadImageToDatabase'
+
+            //axios.post(p, object).then(
+            //    (response) => {
+            //        var res = response.data;
+            //        if (res == true)
+            //            alert("הוספה בהצלחה");
+            //        else
+            //            alert("אופסס");
+
+            //    },
+            //    (error) => {
+            //        console.log(error);
+            //    }
+            //);
+
+
+    </script>
+</body>
+</html>
